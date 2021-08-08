@@ -26,6 +26,15 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="violet"
 
 # Build Fingerprints
-BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ3A.210705.001/7380771:user/release-keys"
+BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ3A.210805.001.A1/7474174:user/release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Official
+XTENDED_BUILD_TYPE := OFFICIAL
+
+# Maintainer
+XTENDED_BUILD_MAINTAINER := AnantaSrikar
+
+# Link
+XTENDED_BUILD_DONATE_URL := https://srikar.tech
